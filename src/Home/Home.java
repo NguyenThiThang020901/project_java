@@ -7,7 +7,6 @@ import static View.viewAdmin.adminMenu;
 import static View.viewUser.*;
 import java.util.*;
 
-
 public class Home {
 
     public static void main(String[] args) {
@@ -54,10 +53,10 @@ public class Home {
 //                                 case "3":
 //                            case "#3":
 //                                break;
-                            case "4":
-                           case "#4":
-                               admin.RemoveAccount();
-                               break;
+                        case "4":
+                        case "#4":
+                            admin.RemoveAccount();
+                            break;
 //                            case "5":
 //                            case "#5":
 //                                break;
@@ -67,54 +66,49 @@ public class Home {
 //                            default :
 //                             System.out.println("Notice: Incorrect syntax. Please re-enter!");
 //                             break;
-                               }
-                            break;
-                        case "#2":
-                        case "2":
-                            // System.out.println("+--------- Menu Login --------+");
-                            //System.out.println("#1: Login");
-                            // System.out.println("#2: Create Account");
-                            //System.out.println("#3: Exit");
-
-                            check = userChoice();
-                            while (exit == true) {
-                                switch (check) {
-                                    case "1":
-                                    case "#1":
-                                        UserLogin();
-                                        break;
-                                    case "2":
-                                    case "#2":
-                                        createUser();
-                                        break;
-                                    case "3":
-                                    case "#3":
-                                        exit = false;
-                                        break;
-                                    default:
-                                        System.out.println("Notice: Incorrect syntax. Please re-enter!");
-                                        break;
-                                }
-                            }
-                            break;
-                            
-
-                        case "#3":
-                            System.out.println("You choose to exit the program! ");
-                            end = false;
-                            break;
-                        default:
-                            System.out.println("Notice: Incorrect syntax. Please re-enter!");
-                            break;
                     }
+                    break;
+                case "#2":
+                case "2":
+                    // System.out.println("+--------- Menu Login --------+");
+                    //System.out.println("#1: Login");
+                    // System.out.println("#2: Create Account");
+                    //System.out.println("#3: Exit");
 
+                    check = userChoice();
+                    while (exit == true) {
+                        switch (check) {
+                            case "1":
+                            case "#1":
+                                UserLogin();
+                                break;
+                            case "2":
+                            case "#2":
+                                createUser();
+                                break;
+                            case "3":
+                            case "#3":
+                                exit = false;
+                                break;
+                            default:
+                                System.out.println("Notice: Incorrect syntax. Please re-enter!");
+                                break;
+                        }
+                    }
+                    break;
+
+                case "#3":
+                    System.out.println("You choose to exit the program! ");
+                    end = false;
+                    break;
+                default:
+                    System.out.println("Notice: Incorrect syntax. Please re-enter dffgf!");
+                    break;
             }
-            while (end == true);
-        }
-
-
-    
-    
+//abcds
+        } while (end == true);
+        //abc
     }
-
-
+//Trung♥
+//    asdasdasd
+}
